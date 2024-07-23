@@ -1,0 +1,32 @@
+Air_Way Project
+--------------------------------------------------
+Sequelize command :
+--------------------------------------------------
+create database: npx sequelize db:create
+
+Generate Model:(inside src) 
+
+npx sequelize model:generate --name city --attribute name:String
+(When you are use in sequelize cli that time use this command)
+
+migration command:
+npx sequelize db:migration
+-----------------------------------------------------
+Generate Seeder:(inside src)
+
+npx sequelize seed:generate --name add-airports 
+
+seeder command:
+npx sequelize db:seed:all
+
+
+const create = asayc (req,res)=>{
+
+}
+
+class repository{
+
+	async create(){
+	
+	}
+}
